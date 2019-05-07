@@ -1,0 +1,8 @@
+C:\Users\dhandaj\source\repos\AspDotNetReact\DAL.VehicleSystem\bin\Debug\netstandard2.0\DAL.VehicleSystem.deps.json
+C:\Users\dhandaj\source\repos\AspDotNetReact\DAL.VehicleSystem\bin\Debug\netstandard2.0\DAL.VehicleSystem.dll
+C:\Users\dhandaj\source\repos\AspDotNetReact\DAL.VehicleSystem\bin\Debug\netstandard2.0\DAL.VehicleSystem.pdb
+C:\Users\dhandaj\source\repos\AspDotNetReact\DAL.VehicleSystem\obj\Debug\netstandard2.0\DAL.VehicleSystem.csproj.CoreCompileInputs.cache
+C:\Users\dhandaj\source\repos\AspDotNetReact\DAL.VehicleSystem\obj\Debug\netstandard2.0\DAL.VehicleSystem.AssemblyInfoInputs.cache
+C:\Users\dhandaj\source\repos\AspDotNetReact\DAL.VehicleSystem\obj\Debug\netstandard2.0\DAL.VehicleSystem.AssemblyInfo.cs
+C:\Users\dhandaj\source\repos\AspDotNetReact\DAL.VehicleSystem\obj\Debug\netstandard2.0\DAL.VehicleSystem.dll
+C:\Users\dhandaj\source\repos\AspDotNetReact\DAL.VehicleSystem\obj\Debug\netstandard2.0\DAL.VehicleSystem.pdb

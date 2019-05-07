@@ -1,0 +1,8 @@
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\DAL.VehicleSystem\bin\Debug\netstandard2.0\DAL.PaySlip.deps.json
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\DAL.VehicleSystem\bin\Debug\netstandard2.0\DAL.PaySlip.dll
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\DAL.VehicleSystem\bin\Debug\netstandard2.0\DAL.PaySlip.pdb
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\DAL.VehicleSystem\obj\Debug\netstandard2.0\DAL.PaySlip.csproj.CoreCompileInputs.cache
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\DAL.VehicleSystem\obj\Debug\netstandard2.0\DAL.PaySlip.AssemblyInfoInputs.cache
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\DAL.VehicleSystem\obj\Debug\netstandard2.0\DAL.PaySlip.AssemblyInfo.cs
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\DAL.VehicleSystem\obj\Debug\netstandard2.0\DAL.PaySlip.dll
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\DAL.VehicleSystem\obj\Debug\netstandard2.0\DAL.PaySlip.pdb

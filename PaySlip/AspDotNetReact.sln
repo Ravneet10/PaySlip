@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APaySlip", "AspDotNetReact\APaySlip.csproj", "{EF84B6B8-3200-4A30-AA27-5E2318EB1344}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.PaySlip", "Business.VehicleSystem\Business.PaySlip.csproj", "{249E0195-3F0E-43BE-82C5-235356CC48B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySlipTestProject", "VehicleTestProject\PaySlipTestProject.csproj", "{31CCACCB-2E86-4F00-8DE1-1E1694539CE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF84B6B8-3200-4A30-AA27-5E2318EB1344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF84B6B8-3200-4A30-AA27-5E2318EB1344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF84B6B8-3200-4A30-AA27-5E2318EB1344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF84B6B8-3200-4A30-AA27-5E2318EB1344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249E0195-3F0E-43BE-82C5-235356CC48B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249E0195-3F0E-43BE-82C5-235356CC48B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249E0195-3F0E-43BE-82C5-235356CC48B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249E0195-3F0E-43BE-82C5-235356CC48B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31CCACCB-2E86-4F00-8DE1-1E1694539CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CCACCB-2E86-4F00-8DE1-1E1694539CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31CCACCB-2E86-4F00-8DE1-1E1694539CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31CCACCB-2E86-4F00-8DE1-1E1694539CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+		SolutionGuid = {F3D083E8-21F7-4B0E-8376-033BBDE81685}
+	EndGlobalSection
+EndGlobal

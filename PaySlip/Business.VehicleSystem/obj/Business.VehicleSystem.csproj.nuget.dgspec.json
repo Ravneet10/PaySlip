@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dhandaj\\Documents\\Payslip\\PaySlip\\PaySlip\\Business.VehicleSystem\\Business.VehicleSystem.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dhandaj\\Documents\\Payslip\\PaySlip\\PaySlip\\Business.VehicleSystem\\Business.VehicleSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dhandaj\\Documents\\Payslip\\PaySlip\\PaySlip\\Business.VehicleSystem\\Business.VehicleSystem.csproj",
+        "projectName": "Business.VehicleSystem",
+        "projectPath": "C:\\Users\\dhandaj\\Documents\\Payslip\\PaySlip\\PaySlip\\Business.VehicleSystem\\Business.VehicleSystem.csproj",
+        "packagesPath": "C:\\Users\\dhandaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dhandaj\\Documents\\Payslip\\PaySlip\\PaySlip\\Business.VehicleSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dhandaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.sitefinity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\dhandaj\\Documents\\Payslip\\PaySlip\\PaySlip\\DAL.VehicleSystem\\DAL.VehicleSystem.csproj": {
+                "projectPath": "C:\\Users\\dhandaj\\Documents\\Payslip\\PaySlip\\PaySlip\\DAL.VehicleSystem\\DAL.VehicleSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\dhandaj\\Documents\\Payslip\\PaySlip\\PaySlip\\DAL.VehicleSystem\\DAL.VehicleSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dhandaj\\Documents\\Payslip\\PaySlip\\PaySlip\\DAL.VehicleSystem\\DAL.VehicleSystem.csproj",
+        "projectName": "DAL.VehicleSystem",
+        "projectPath": "C:\\Users\\dhandaj\\Documents\\Payslip\\PaySlip\\PaySlip\\DAL.VehicleSystem\\DAL.VehicleSystem.csproj",
+        "packagesPath": "C:\\Users\\dhandaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dhandaj\\Documents\\Payslip\\PaySlip\\PaySlip\\DAL.VehicleSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dhandaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.sitefinity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

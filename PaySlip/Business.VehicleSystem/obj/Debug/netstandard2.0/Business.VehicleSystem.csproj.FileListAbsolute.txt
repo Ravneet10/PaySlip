@@ -1,0 +1,12 @@
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\bin\Debug\netstandard2.0\Business.VehicleSystem.deps.json
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\bin\Debug\netstandard2.0\Business.VehicleSystem.dll
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\bin\Debug\netstandard2.0\Business.VehicleSystem.pdb
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\bin\Debug\netstandard2.0\DAL.VehicleSystem.dll
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\bin\Debug\netstandard2.0\DAL.VehicleSystem.pdb
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.VehicleSystem.csprojAssemblyReference.cache
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.VehicleSystem.csproj.CoreCompileInputs.cache
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.VehicleSystem.AssemblyInfoInputs.cache
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.VehicleSystem.AssemblyInfo.cs
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.VehicleSystem.csproj.CopyComplete
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.VehicleSystem.dll
+C:\Users\dhandaj\source\repos\AspDotNetReact\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.VehicleSystem.pdb

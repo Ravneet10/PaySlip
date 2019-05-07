@@ -1,0 +1,9 @@
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\Business.VehicleSystem\bin\Debug\netstandard2.0\Business.PaySlip.deps.json
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\Business.VehicleSystem\bin\Debug\netstandard2.0\Business.PaySlip.dll
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\Business.VehicleSystem\bin\Debug\netstandard2.0\Business.PaySlip.pdb
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.PaySlip.csprojAssemblyReference.cache
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.PaySlip.csproj.CoreCompileInputs.cache
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.PaySlip.AssemblyInfoInputs.cache
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.PaySlip.AssemblyInfo.cs
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.PaySlip.dll
+C:\Users\dhandaj\Documents\Payslip\PaySlip\PaySlip\Business.VehicleSystem\obj\Debug\netstandard2.0\Business.PaySlip.pdb
