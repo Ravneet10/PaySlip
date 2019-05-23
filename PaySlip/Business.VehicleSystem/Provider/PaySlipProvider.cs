@@ -11,15 +11,12 @@ namespace Business.PaySlip.Provider
         public EmployeePaySlipDetails GeneratePaySlip(EmployeeDetails employeeDetails)
         {
 
-            double grossIncome = employeeDetails.AnnualSalary / 12;
-            RoundData(ref grossIncome);
-            double incomeTax = CalculateIncomeTax(Convert.ToDouble(employeeDetails.AnnualSalary));
-            RoundData(ref incomeTax);
+            double grossIncome = CalculateGrossIncome(employeeDetails.AnnualSalary);
+            double incomeTax = CalculateIncomeTax(employeeDetails.AnnualSalary);
+            incomeTax= RoundData(incomeTax);
+            double netIncome = CalculateNetIncome(grossIncome,incomeTax);
+            double super = CalculateSuper(grossIncome, employeeDetails.SuperRate);
 
-            double netIncome = grossIncome - incomeTax;
-            RoundData(ref netIncome);
-            double super = (grossIncome * employeeDetails.SuperRate) / 100;
-            RoundData(ref super);
             var paySlipDetails = new EmployeePaySlipDetails
             {
                 FirstName = employeeDetails.FirstName,
@@ -32,19 +29,7 @@ namespace Business.PaySlip.Provider
             };
             return paySlipDetails;
         }
-        public void RoundData(ref double data)
-        {
-            if (data > 0)
-            {
-                data = data <= 0.50 ? Math.Floor(data) : Math.Round(data, MidpointRounding.AwayFromZero);
-
-            }
-            else
-            {
-                throw new ArgumentException("Invalid format");
-            }
-
-        }
+       
 
     }
 }
