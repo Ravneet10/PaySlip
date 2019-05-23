@@ -74,8 +74,8 @@ namespace VehicleTestProject
             try
             {
                 double value = -10;
-                IPaySlip ps = new PaySlipProvider();
-                ps.RoundData(ref value);
+                IncomeTaxCalc ps = new PaySlipProvider();
+                ps.RoundData(value);
             }
             catch (Exception e)
             {
@@ -89,8 +89,8 @@ namespace VehicleTestProject
             try
             {
                 double value = 100;
-                IPaySlip ps = new PaySlipProvider();
-                ps.RoundData(ref value);
+                IncomeTaxCalc ps = new PaySlipProvider();
+                ps.RoundData(value);
             }
             catch (Exception e)
             {
