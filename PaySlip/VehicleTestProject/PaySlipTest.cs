@@ -129,5 +129,98 @@ namespace VehicleTestProject
             }
 
         }
+        [TestMethod()]
+        public void PositiveCalculateGrossIncome()
+        {
+            try
+            {
+                double value = 625000;
+                IncomeTaxCalc ps = new PaySlipProvider();
+                ps.CalculateGrossIncome(value);
+            }
+            catch (Exception e)
+            {
+                Assert.Fail("Exception thrown", e.Message);
+            }
+
+        }
+        [TestMethod()]
+        [ExpectedException(typeof(ArgumentException))]
+        public void NegativeCalculateGrossincome()
+        {
+            try
+            {
+                double value = -10;
+                IncomeTaxCalc ps = new PaySlipProvider();
+                ps.CalculateGrossIncome(value);
+            }
+            catch (Exception e)
+            {
+                Assert.Fail("Exception thrown", e.Message);
+            }
+
+        }
+        [TestMethod()]
+        public void PositiveCalculateNetIncome()
+        {
+            try
+            {
+                double grossIncome = 625000,incomeTax=620;
+                IncomeTaxCalc ps = new PaySlipProvider();
+                ps.CalculateNetIncome(grossIncome, incomeTax);
+            }
+            catch (Exception e)
+            {
+                Assert.Fail("Exception thrown", e.Message);
+            }
+
+        }
+        [TestMethod()]
+        [ExpectedException(typeof(ArgumentException))]
+        public void NegativeCalculateNetIncome()
+        {
+            try
+            {
+                double grossIncome = 625, incomeTax = 625000;
+                IncomeTaxCalc ps = new PaySlipProvider();
+                ps.CalculateNetIncome(grossIncome, incomeTax);
+            }
+            catch (Exception e)
+            {
+                Assert.Fail("Exception thrown", e.Message);
+            }
+
+        }
+        [TestMethod()]
+        public void PositiveCalculateSuper()
+        {
+            try
+            {
+                double grossIncome = 625000, incomeTax = 620;
+                IncomeTaxCalc ps = new PaySlipProvider();
+                ps.CalculateSuper(grossIncome, incomeTax);
+            }
+            catch (Exception e)
+            {
+                Assert.Fail("Exception thrown", e.Message);
+            }
+
+        }
+        [TestMethod()]
+        [ExpectedException(typeof(ArgumentException))]
+        public void NegativeCalculateSuper()
+        {
+            try
+            {
+                double grossIncome = 625, super = 0;
+                IncomeTaxCalc ps = new PaySlipProvider();
+                ps.CalculateSuper(grossIncome, super);
+            }
+            catch (Exception e)
+            {
+                Assert.Fail("Exception thrown", e.Message);
+            }
+
+        }
     }
 }
